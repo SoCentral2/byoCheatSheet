@@ -1,0 +1,51 @@
+body {
+    background-color: khaki;
+    font-family: Arial;
+}
+
+h1{
+    text-align: center;
+}
+
+table td:nth-child(1) { /*align text in the first column to the center*/
+    text-align: center;
+}
+
+table, th, tr, td { /*borders everywhere*/
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: linen;
+}
+
+tr:nth-child(even) { /*alternate colours every other row*/
+    background-color: goldenrod;
+}
+
+th {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+  }
+
+table.animation_table, h4 {
+    margin-left: 20%; 
+    margin-right: 20%;
+  }
+
+.table_header th{
+    font-size: 18px;
+}
+
+.col1 {
+    width: 40%;
+}
+
+td {
+    font-weight: normal;
+}
